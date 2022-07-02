@@ -92,7 +92,7 @@ nav {
     padding: 30px;
     /* border: 1px solid black; */
     overflow: auto;
-    z-index: 100;
+    z-index: 1000;
     transition-property: border;
     transition-duration: 0.8s;
     transition-timing-function: ease;
@@ -329,7 +329,7 @@ h2.com {
 .flex-gal-con {
     width: 80%;
     margin: 100px auto;
-    background: linear-gradient(rgb(229, 250, 255), rgba(0, 119, 255, 0.61));
+    background: linear-gradient(rgb(229, 250, 255), #336b87);
     border-radius: 20px;
     border: 1px solid #336b87;
 }
