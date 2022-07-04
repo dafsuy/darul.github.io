@@ -175,10 +175,16 @@ nav .button:active {
     text-align: center;
 }
 
+@keyframes anim{
+    0% {font-size: 100px;}
+    50% {font-size: 10px;}
+    100% {font-size: 100px;}
+}
 .p1 {
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 100px;
     color: #336b87;
+    animation: anim 5s ease 2s infinite alternate;
 }
 
 .p2 {
